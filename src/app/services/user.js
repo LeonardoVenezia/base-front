@@ -37,7 +37,7 @@ export const login = async (email, password) => {
   }
 
   const response = await commonService(
-    '/products',
+    '/auth/login',
     method,
     body,
     headers,
